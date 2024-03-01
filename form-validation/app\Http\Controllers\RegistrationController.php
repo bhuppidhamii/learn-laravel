@@ -17,8 +17,8 @@ class RegistrationController extends Controller
             [
                 'name'=>'required',
                 'email'=>'required|email',
-                'password'=>'required|confirmed',
-                'password_confirmation' => 'required',
+                'password'=>'required',
+                'conf_password' => 'required|same:password',
             ]
             );
         echo "<pre>";
