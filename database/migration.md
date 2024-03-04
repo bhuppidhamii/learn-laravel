@@ -1,4 +1,4 @@
-> php artisan make:migration create_tableName_table
+> php artisan make:migration create_TABLE-NAME_table
 ```
 public function up(): void
     {
