@@ -1,2 +1,1 @@
-# 3/4/24
-## Database Configuration and Migration
+### 3/4/24 > Database Configuration and Migration
