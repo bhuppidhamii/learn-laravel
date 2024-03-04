@@ -16,4 +16,5 @@ public function up(): void
         });
     }
 ```
-> php artisan migrate
+> php artisan migrate    -> to create table
+> php artison migrate:rollback  -> to roll back table
