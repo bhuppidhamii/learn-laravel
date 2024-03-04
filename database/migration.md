@@ -16,6 +16,8 @@ public function up(): void
         });
     }
 ```
-> ```php artisan migrate```    - to create table\
-> ```php artison migrate:rollback```  - to roll back table\
-> ```php artisan migrate:refresh```    - refresh all tables\
+```php artisan migrate```    - to create table\
+```php artison migrate:rollback```  - to roll back table\
+```php artisan migrate:refresh``` - refresh all tables
+
+> php artisan make:migration add_columns_to_TABLE-NAME_table 
