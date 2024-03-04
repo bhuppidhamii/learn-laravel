@@ -1,4 +1,4 @@
-> php artisan:make model:Modelname
+> php artisan:make model:Costomer
 >
 ```
 class Customer extends Model
@@ -8,3 +8,5 @@ class Customer extends Model
     private $primaryKey='customer_id';
 }
 ```
+>  php artisan make:model Product --migration\
+> creates Model as well as Migration
